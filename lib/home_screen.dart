@@ -1,6 +1,5 @@
 import 'package:animated_emoji/animated_emoji.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:just_audio/just_audio.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -59,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen>
               child: Text(
                 'Clapsies',
                 style: Theme.of(context).textTheme.displaySmall?.copyWith(
-                      fontFamily: GoogleFonts.bangers.call().fontFamily,
+                      fontFamily: 'Bangers',
                       letterSpacing: 1.5,
                       fontSize: 48,
                     ),
